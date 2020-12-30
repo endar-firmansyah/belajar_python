@@ -1,8 +1,9 @@
-#Pythhon program for checking numbers, (Positive, Negative, Zero)
-num = float(input("Enter a Number: "))
+#Pythhon program to check if the input numbers is (Positive, Negative, Zero)
+num = int(input("Enter a Number: "))
 if num > 0:
-    print("is Positive Number")
+    print("{0} is Positive Number".format (num))
 elif num == 0:
-    print("is Zero")
+    print("{0} is Zero".format (num))
 else:
     print("is Negative Number")
+

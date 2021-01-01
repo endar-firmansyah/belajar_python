@@ -4,7 +4,7 @@
 # div = 79
 div = int(input("Input a number: "))
 if (div % 2) == 0:
-    print("{0} It is even Number".format(div))
+    print("{0} is even Number".format(div))
 else:
-    print("{0} It is an Odd Number".format(div))
+    print("{0} is Odd Number".format(div))
 
